@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment>Set state closed and add work notes to the input reason</comment>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Handle Overdue NeedIt Tasks">974c04a6db063300f33a2a36ca9619af</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:29:23</sys_created_on>
+        <sys_id>e42c27e2db0e3300f33a2a36ca961992</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt Spoke" source="x_365467_needit_sp">6d963b56dbc23300f33a2a36ca96192e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">6d963b56dbc23300f33a2a36ca96192e</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e42c27e2db0e3300f33a2a36ca961992</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:37:07</sys_updated_on>
+        <ui_id>72e83d8b-8900-4fa3-926f-86ad0a3135e3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e42c27e2db0e3300f33a2a36ca961992"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e42c27e2db0e3300f33a2a36ca961992</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:35:05</sys_created_on>
+        <sys_id>187d6326db0e3300f33a2a36ca9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:35:05</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e42c27e2db0e3300f33a2a36ca961992</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:29:23</sys_created_on>
+        <sys_id>f82c27e2db0e3300f33a2a36ca961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:29:23</sys_updated_on>
+        <value>x_58872_needit_needit_task</value>
+        <variable display_value="">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e42c27e2db0e3300f33a2a36ca961992"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e42c27e2db0e3300f33a2a36ca961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:29:23</sys_created_on>
+        <sys_id>b42c27e2db0e3300f33a2a36ca961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{subflow.needit_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>e42c27e2db0e3300f33a2a36ca961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:35:05</sys_created_on>
+        <sys_id>d07d6326db0e3300f33a2a36ca9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:35:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.needit_task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e42c27e2db0e3300f33a2a36ca961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:35:05</sys_created_on>
+        <sys_id>107d6326db0e3300f33a2a36ca9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:35:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>e42c27e2db0e3300f33a2a36ca961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:29:23</sys_created_on>
+        <sys_id>fc2c27e2db0e3300f33a2a36ca961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e42c27e2db0e3300f33a2a36ca961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:29:23</sys_created_on>
+        <sys_id>782c27e2db0e3300f33a2a36ca961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:29:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>state=4^work_notes={{subflow.reason}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>e42c27e2db0e3300f33a2a36ca961992</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 12:35:05</sys_created_on>
+        <sys_id>947d6326db0e3300f33a2a36ca9619f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 12:35:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>state=4^work_notes={{subflow.reason}}</value>
+    </sys_element_mapping>
+</record_update>
